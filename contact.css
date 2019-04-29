@@ -1,0 +1,17 @@
+body{
+    /* text-align: center; */
+    font-size: 4rem;
+    background-color: black;
+    background-image: url("img/toto.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(211, 68, 15);
+    padding-top: 3rem;
+
+}
+@media only screen and (max-width: 768px) {
+    body{
+        text-align: center;
+        padding-top: 15rem;
+        font-size: 3rem;
+    }
